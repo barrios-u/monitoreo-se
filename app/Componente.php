@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Componente extends Model
 {
     //
-    protected $fillable = [
+  protected $fillable = [
         'sistema_embebido_id','tipo_dato_id','unidad_id','nombre'
     ];
 

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class TipoDato extends Model
 {
     //
-    protected $fillable = [
+  protected $fillable = [
         'nombre'
     ];
 
