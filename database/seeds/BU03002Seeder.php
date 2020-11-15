@@ -11,7 +11,7 @@ class BU03002Seeder extends Seeder
      */
     public function run()
     {
-        //SistemaEmbebido::create([
+        SistemaEmbebido::create([
             'user_id'=>1,
             'nombre'=>"Sistema de prueba 1",
             'activo'=>true
